@@ -1,8 +1,9 @@
 #!/bin/bash
 
-logs='../trash/nohup_output_*.txt'
+logpath=../trash/nohup_output_*.txt
+logs_number=$(ls -1 $logpath 2>/dev/null | wc -l )
 
-if [ $(ls -1 $logs 2>/dev/null | wc -l ) -gt 0 ];
+if [ $logs_number -gt 0 ];
 then
-    rm $logs
+    rm $logpath
 fi
