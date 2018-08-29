@@ -8,5 +8,4 @@ then
     kill -9 $dstatPID
 fi
 
-
  ./empty_trash.sh
