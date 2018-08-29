@@ -1,2 +1,2 @@
 #!/bin/bash
-ps -aux | grep dstat
+ps -ef | grep '/usr/bin/dstat' | grep -v 'grep'
