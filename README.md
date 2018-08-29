@@ -21,3 +21,4 @@ Some script files are working only if you are running it directly from scripts f
 *Correct*             ./background.sh          
 
 *Incorrect*           ./scripts/background.sh
+
