@@ -12,7 +12,7 @@ __check.sh__ - show all runned dstat instances
 
 __kill_all.sh__ - kill all runned dstat instances
 
-__terminal.sh__ - run dstat in terminal, use Ctrl+C to exit. On exit logs writing will stop.
+__terminal.sh__ - run dstat in terminal, use Ctrl+C to exit.
 
 
 
